@@ -85,6 +85,11 @@ rss:
       url: "https://hnrss.org/frontpage"
       # max_age_days: 1               # 示例：只推送1天内的文章
 
+    - id: "amz123-news"
+      name: "AMZ123 News"
+      url: "https://hnrss.org/frontpage"
+      # max_age_days: 1    
+      
     - id: "ruanyifeng"
       name: "阮一峰的网络日志"
       url: "http://www.ruanyifeng.com/blog/atom.xml"
