@@ -151,38 +151,52 @@
 
 # 主流跨境电商平台
 [亚马逊]
-/\bAmazon\b|亚马逊/ => 亚马逊
+/\bAmazon\b/i
+亚马逊
+AWS
+贝佐斯
+FBA
+FBM
+Prime
 
 [阿里巴巴国际站]
 阿里巴巴国际站
-/Alibaba.com/i => 阿里巴巴国际站
+/\bAlibaba\b/i
+/\bAlibaba.com\b/i
 
 [速卖通]
 /AliExpress|速卖通/ => 速卖通
 
 [eBay]
-/\beBay\b|易贝/ => eBay
+/\beBay\b/i
+易贝
 
 [Wish]
 /\bWish\b/ => Wish
 
 [Shopify]
-/\bShopify\b/ => Shopify
+/\bShopify\b/i=> Shopify
 
 [Shopee]
-/\bShopee\b|虾皮/ => Shopee
+/\bShopee\b/i
+虾皮
 
 [Lazada]
-/\bLazada\b|来赞达/ => Lazada
+/\bLazada\b\b/i
+来赞达
 
-[TikTok Shop]
-/TikTok Shop|抖音小店国际版/ => TikTok Shop
+[TikTok]
+/\bTikTok\b/i
+/\bTikTok Shop\b/i
+抖音小店国际版
 
 [京东国际]
 京东国际
+/\bJD International\b/i
 
 [敦煌网]
 敦煌网
+/\bdhgate\b/i
 
 [兰亭集势]
 兰亭集势
@@ -190,10 +204,12 @@
 
 # 新兴跨境电商平台
 [Temu]
-/\bTemu\b|拼多多跨境/ => Temu
+/\bTemu\b/i
+拼多多跨境
 
 [SHEIN]
-/\bSHEIN\b/ => SHEIN
+/\bSHEIN\b/i
+希音
 
 [Fordeal]
 /\bFordeal\b/ => Fordeal
@@ -293,27 +309,34 @@
 /跨境电商出口|跨境电商B2B/ => 跨境电商出口
 
 [RCEP]
-/\bRCEP\b|区域全面经济伙伴关系协定/ => RCEP
+/\bRCEP\b/i
+区域全面经济伙伴关系协定
 
 [一带一路]
-/一带一路|Belt and Road/ => 一带一路
+一带一路
+/\bBelt and Road\b/i
 
 
 # 国际跨境电商政策
 [欧盟跨境电商新政]
-/欧盟跨境电商新政|EU E-Commerce VAT Package/ => 欧盟跨境电商新政
+欧盟跨境电商新政
+/\bEU E-Commerce VAT Package\b/i
 
 [美国电商法案]
-/美国电商法案|US E-Commerce Act/ => 美国电商法案
+美国电商法案
+/\bUS E-Commerce Act\b/i
 
 [东南亚电商政策]
-/东南亚电商政策|Southeast Asia E-Commerce Policy/ => 东南亚电商政策
+东南亚电商政策
+/\bSoutheast Asia E-Commerce Policy\b/i
 
 [中东电商政策]
-/中东电商政策|Middle East E-Commerce Policy/ => 中东电商政策
+中东电商政策
+/\bMiddle East E-Commerce Policy\b/i
 
 [拉美电商政策]
-/拉美电商政策|Latin America E-Commerce Policy/ => 拉美电商政策
+拉美电商政策
+/\bLatin America E-Commerce Policy\b/i
 
 
 # 产业扶持政策
@@ -321,13 +344,16 @@
 /跨境电商扶持政策|跨境电商补贴/ => 跨境电商扶持政策
 
 [海外仓政策]
-/海外仓政策|Overseas Warehouse Policy/ => 海外仓政策
+海外仓政策
+/\bOverseas Warehouse Policy\b/i
 
 [跨境物流政策]
-/跨境物流政策|Cross-border Logistics Policy/ => 跨境物流政策
+跨境物流政策
+/\bCross-border Logistics Policy\b/i
 
 [支付结算政策]
-/支付结算政策|Payment and Settlement Policy/ => 支付结算政策
+支付结算政策
+/\bPayment and Settlement Policy\b/i
 
 # ═══════════════════════════════════════════════════════════════
 #                         国家与地区
@@ -349,6 +375,7 @@
 [西欧]
 法国
 英国
+中东
 
 /俄罗斯|俄国/ => 俄罗斯
 
